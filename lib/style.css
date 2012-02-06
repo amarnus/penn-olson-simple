@@ -11,6 +11,10 @@ div.attribution {
 	text-align: center;
 }
 
+div.twitter-share-button-wrapper {
+	margin-top: 10px;
+}
+
 div.entry.today {
 	border: solid thin #AAA;
 }
