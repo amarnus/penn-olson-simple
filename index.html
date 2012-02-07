@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <head>
-  <link href="/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link href="/assets/style.css?v=0.5" type="text/css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="lib/style.css?v=0.6" type="text/css" rel="stylesheet">
   <script type="text/javascript" src="//www.google.com/jsapi"></script>
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+  <title>Simple Penn Olson Reader</title>
 </head>
 <body>
-	<div class="attribution alert alert-info">
+	<div class="attribution alert alert-info clearfix">
 		<a href="javascript://" class="close" data-dismiss="alert">×</a>
 		Built by <a href="http://twitter.com/intent/user?screen_name=amarnus">amarnus</a> using the
-		<a href="https://developers.google.com/feed/v1/" rel="external" target="_blank">Google Feed API</a> and 
-		<a href="http://twitter.github.com/bootstrap" rel="external" target="_blank">Twitter Bootstrap 2.0</a>
+		<a href="http://developers.google.com/feed/v1/" rel="external" target="_blank">Google Feed API</a> and 
+		<a href="http://twitter.github.com/bootstrap" rel="external" target="_blank">Twitter Bootstrap 2.0</a>. 
+		<span>
+			<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</span>
 	</div>
 	<div class="container-fluid">
 		<div class="title-wrapper"></div>
 		<section class="clearfix"></section>
 		<footer><button class="btn btn-info btn-large" data-loading-text="Loading.." id="load-more">Load more</footer>
 	</div>
-    <script type="text/javascript" src="/jquery/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/assets/behave.js?v=0.5"></script>
+    <script type="text/javascript" src="jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/behave.js?v=0.6"></script>
 </body>

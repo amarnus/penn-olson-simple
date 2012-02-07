@@ -1,0 +1,3 @@
+<a href="http://penn-olson.com">Penn Olson</a> is a technology blog based in Singapore that covers startups in Asia. This app simply fetches the RSS feeds from this blog and presents post teasers in a neat, clutter-free way (4 x N grid). Also allows opening articles inline (in a modal popup) and sharing them quickly to Twitter.
+
+<p>Built using the <a href="https://developers.google.com/feed/" target="_blank">Google Feed API</a> and <a href="http://twitter.github.com/bootstrap" target="_blank">Twitter Bootstrap 2</a></p>
