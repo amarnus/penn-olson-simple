@@ -1,0 +1,21 @@
+body {background-color: #E3E9ED;}
+div.title-wrapper {text-align: center;padding: 2em;}
+div.attribution {text-align: center;}
+div.entry.today {border: solid thin #AAA;}
+div.box {height: 300px;overflow: scroll;}
+footer {
+	text-align: center;
+	padding-bottom: 2em;
+	&>button{
+        cursor: pointer;	    
+	}
+}
+// Landscape phone to portrait tablet
+@media (max-width: 768px) {
+    .row-fluid{
+        .span3{
+            width:100%;
+            margin:0;        
+        }            
+    }
+}
